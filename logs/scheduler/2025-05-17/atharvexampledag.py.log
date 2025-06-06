@@ -1,0 +1,231 @@
+[2025-05-17T06:25:07.645+0000] {processor.py:186} INFO - Started process (PID=101) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:25:07.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:25:07.752+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:25:07.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:25:08.064+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:25:08.326+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:25:08.325+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:25:08.528+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:25:08.528+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:25:08.663+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.133 seconds
+[2025-05-17T06:25:42.311+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:25:42.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:25:42.324+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:25:42.323+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:25:42.419+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:25:42.483+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:25:42.482+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:25:42.624+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:25:42.623+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:25:42.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.409 seconds
+[2025-05-17T06:33:55.647+0000] {processor.py:186} INFO - Started process (PID=92) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:33:55.652+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:33:55.661+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:33:55.660+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:33:55.840+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:33:55.974+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:33:55.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:33:56.091+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:33:56.090+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:33:56.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.596 seconds
+[2025-05-17T06:34:26.804+0000] {processor.py:186} INFO - Started process (PID=158) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:34:26.816+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:34:26.837+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:34:26.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:34:27.071+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:34:27.234+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:34:27.234+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:34:27.515+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:34:27.514+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:34:27.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.949 seconds
+[2025-05-17T06:34:58.470+0000] {processor.py:186} INFO - Started process (PID=223) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:34:58.475+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:34:58.483+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:34:58.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:34:58.611+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:34:58.658+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:34:58.657+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:34:58.724+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:34:58.723+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:34:58.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.330 seconds
+[2025-05-17T06:35:38.392+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:35:38.425+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:35:38.443+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:35:38.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:35:38.684+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:35:38.740+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:35:38.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:35:38.860+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:35:38.860+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:35:38.953+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.579 seconds
+[2025-05-17T06:36:47.515+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:36:47.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:36:47.523+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:36:47.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:36:47.572+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:36:47.603+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:36:47.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:36:47.649+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:36:47.648+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:36:47.684+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.184 seconds
+[2025-05-17T06:37:18.726+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:37:18.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:37:18.735+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:37:18.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:37:18.789+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:37:18.829+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:37:18.829+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:37:18.881+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:37:18.881+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:37:18.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.218 seconds
+[2025-05-17T06:37:53.851+0000] {processor.py:186} INFO - Started process (PID=441) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:37:53.855+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:37:53.863+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:37:53.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:37:54.058+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:37:54.124+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:37:54.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:37:54.240+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:37:54.239+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:37:54.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.517 seconds
+[2025-05-17T06:38:30.046+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:38:30.052+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:38:30.069+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:38:30.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:38:30.374+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:38:30.489+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:38:30.488+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:38:30.598+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:38:30.597+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:38:30.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.658 seconds
+[2025-05-17T06:39:09.347+0000] {processor.py:186} INFO - Started process (PID=563) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:39:09.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:39:09.373+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:39:09.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:39:09.604+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:39:09.685+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:39:09.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:39:09.785+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:39:09.784+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:39:09.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.558 seconds
+[2025-05-17T06:39:40.310+0000] {processor.py:186} INFO - Started process (PID=630) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:39:40.313+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:39:40.320+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:39:40.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:39:40.429+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:39:40.495+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:39:40.492+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:39:40.602+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:39:40.601+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:39:40.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.390 seconds
+[2025-05-17T06:40:14.012+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:40:14.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:40:14.103+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:40:14.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:40:14.377+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:40:14.647+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:40:14.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:40:15.026+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:40:15.023+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:40:15.450+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.461 seconds
+[2025-05-17T06:40:53.303+0000] {processor.py:186} INFO - Started process (PID=749) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:40:53.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:40:53.322+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:40:53.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:40:53.629+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:40:54.027+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:40:53.976+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:40:54.324+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:40:54.323+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:40:54.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.179 seconds
+[2025-05-17T06:41:25.727+0000] {processor.py:186} INFO - Started process (PID=816) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:41:25.751+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:41:25.768+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:41:25.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:41:26.438+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:41:26.553+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:41:26.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:41:26.755+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:41:26.754+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:41:26.994+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.289 seconds
+[2025-05-17T06:42:06.898+0000] {processor.py:186} INFO - Started process (PID=882) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:42:06.911+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:42:06.934+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:42:06.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:42:07.301+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:42:07.412+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:42:07.411+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:42:07.547+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:42:07.546+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:42:07.790+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.924 seconds
+[2025-05-17T06:42:39.070+0000] {processor.py:186} INFO - Started process (PID=945) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:42:39.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:42:39.085+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:42:39.085+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:42:39.318+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:42:39.400+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:42:39.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:42:39.521+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:42:39.521+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:42:39.648+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.600 seconds
+[2025-05-17T06:43:11.935+0000] {processor.py:186} INFO - Started process (PID=993) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:43:11.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:43:11.963+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:43:11.959+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:43:12.178+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:43:12.266+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:43:12.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:43:12.372+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:43:12.371+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:43:12.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.579 seconds
+[2025-05-17T06:43:49.180+0000] {processor.py:186} INFO - Started process (PID=1060) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:43:49.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:43:49.250+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:43:49.236+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:43:50.076+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:43:50.230+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:43:50.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:43:50.337+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:43:50.336+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:43:50.458+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.337 seconds
+[2025-05-17T06:44:25.972+0000] {processor.py:186} INFO - Started process (PID=1126) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:44:25.979+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:44:25.995+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:44:25.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:44:26.299+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:44:26.569+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:44:26.568+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:44:27.570+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:44:27.568+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:44:27.942+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 2.008 seconds
+[2025-05-17T06:45:07.151+0000] {processor.py:186} INFO - Started process (PID=1191) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:45:07.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:45:07.253+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:45:07.238+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:45:07.710+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:45:08.596+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:45:08.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:45:08.776+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:45:08.775+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:45:08.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.789 seconds
+[2025-05-17T06:45:53.227+0000] {processor.py:186} INFO - Started process (PID=1261) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:45:53.237+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:45:53.456+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:45:53.440+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:45:53.735+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:45:53.815+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:45:53.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:45:53.991+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:45:53.990+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:45:54.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.944 seconds
+[2025-05-17T06:46:38.107+0000] {processor.py:186} INFO - Started process (PID=1319) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:46:38.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:46:38.230+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:46:38.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:46:38.516+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:46:38.622+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:46:38.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:46:38.733+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:46:38.732+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:46:38.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.060 seconds
+[2025-05-17T06:47:21.993+0000] {processor.py:186} INFO - Started process (PID=1349) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:47:22.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:47:22.086+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:47:22.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:47:22.647+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:47:23.180+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:47:23.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:47:23.569+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:47:23.568+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:47:23.859+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.886 seconds
+[2025-05-17T06:48:13.894+0000] {processor.py:186} INFO - Started process (PID=1421) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:48:13.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:48:13.951+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:48:13.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:48:14.219+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:48:14.509+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:48:14.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:48:15.106+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:48:15.104+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:48:15.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.690 seconds
+[2025-05-17T06:49:27.754+0000] {processor.py:186} INFO - Started process (PID=1498) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:49:27.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:49:27.833+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:49:27.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:49:28.160+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:49:28.335+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:49:28.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:49:28.613+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:49:28.610+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:49:29.043+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.368 seconds
+[2025-05-17T06:50:19.602+0000] {processor.py:186} INFO - Started process (PID=1564) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:50:19.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:50:19.665+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:50:19.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:50:19.926+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:50:20.229+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:50:20.228+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:50:20.773+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:50:20.770+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:50:21.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.572 seconds
+[2025-05-17T06:51:19.974+0000] {processor.py:186} INFO - Started process (PID=1629) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:51:19.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:51:20.031+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:51:20.027+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:51:20.749+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:51:21.080+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:51:21.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:51:21.347+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:51:21.346+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:51:21.613+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.692 seconds
+[2025-05-17T06:52:11.478+0000] {processor.py:186} INFO - Started process (PID=1693) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:52:11.483+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:52:11.495+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:52:11.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:52:12.357+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:52:12.445+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:52:12.445+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:52:12.584+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:52:12.583+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:52:12.747+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.295 seconds
+[2025-05-17T06:52:53.540+0000] {processor.py:186} INFO - Started process (PID=1735) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:52:53.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:52:53.563+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:52:53.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:52:53.827+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:52:54.036+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:52:54.032+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:52:54.277+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:52:54.276+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:52:54.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 0.925 seconds
+[2025-05-17T06:53:42.540+0000] {processor.py:186} INFO - Started process (PID=1805) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:53:42.547+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:53:42.595+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:53:42.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:53:42.760+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:53:42.932+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:53:42.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:53:43.250+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:53:43.249+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:53:43.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.022 seconds
+[2025-05-17T06:54:49.079+0000] {processor.py:186} INFO - Started process (PID=1873) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:54:49.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:54:49.119+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:54:49.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:54:49.499+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:54:49.834+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:54:49.833+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:54:50.377+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:54:50.368+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:54:50.827+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.844 seconds
+[2025-05-17T06:55:41.654+0000] {processor.py:186} INFO - Started process (PID=1919) to work on /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:55:41.670+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/atharvexampledag.py for tasks to queue
+[2025-05-17T06:55:41.711+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:55:41.709+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:55:42.045+0000] {processor.py:925} INFO - DAG(s) 'hello_airflow' retrieved from /opt/airflow/dags/atharvexampledag.py
+[2025-05-17T06:55:42.181+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:55:42.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-17T06:55:42.318+0000] {logging_mixin.py:190} INFO - [2025-05-17T06:55:42.317+0000] {dag.py:4180} INFO - Setting next_dagrun for hello_airflow to 2025-05-16 00:00:00+00:00, run_after=2025-05-17 00:00:00+00:00
+[2025-05-17T06:55:42.626+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/atharvexampledag.py took 1.017 seconds

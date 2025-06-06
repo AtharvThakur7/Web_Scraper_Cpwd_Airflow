@@ -1,0 +1,166 @@
+# # Dockerfile_worker
+# # Start from your base Airflow image version.
+# # IMPORTANT: Replace with the exact Airflow image you are using in your docker-compose.yaml,
+# # e.g., apache/airflow:2.8.1-python3.11. This must match!
+# FROM apache/airflow:2.10.5-python3.11
+
+# USER root
+
+# # 1. Install system dependencies for Google Chrome
+# RUN apt-get update && \
+#     apt-get install -yq --no-install-recommends \
+#     curl \
+#     gnupg \
+#     fonts-liberation \
+#     libappindicator3-1 \
+#     libasound2 \
+#     libatk-bridge2.0-0 \
+#     libatk1.0-0 \
+#     libatspi2.0-0 \
+#     libcairo2 \
+#     libcups2 \
+#     libdbus-1-3 \
+#     libdrm-amdgpu1 \
+#     libdrm-common \
+#     libdrm-nouveau2 \
+#     libdrm-radeon1 \
+#     libdrm2 \
+#     libgbm1 \
+#     libgdk-pixbuf2.0-0 \
+#     libgl1 \
+#     libgtk-3-0 \
+#     libjpeg-dev \
+#     libnspr4 \
+#     libnss3 \
+#     libpango-1.0-0 \
+#     libpangocairo-1.0-0 \
+#     libstdc++6 \
+#     libx11-6 \
+#     libx11-xcb1 \
+#     libxcb-dri3-0 \
+#     libxcb-present0 \
+#     libxcb-randr0 \
+#     libxcb-shm0 \
+#     libxcb-sync1 \
+#     libxcomposite1 \
+#     libxcursor1 \
+#     libxdamage1 \
+#     libxext6 \
+#     libxfixes3 \
+#     libxi6 \
+#     libxrandr2 \
+#     libxrender1 \
+#     libxss1 \
+#     libxtst6 \
+#     xdg-utils \
+#     lsb-release && \
+#     rm -rf /var/lib/apt/lists/*
+
+# # 2. Install Google Chrome Stable
+# # This will install the latest stable Google Chrome.
+# # We will then find the matching ChromeDriver for this version.
+# RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg && \
+#     echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
+#     apt-get update && \
+#     apt-get install -y google-chrome-stable
+
+# # 3. Install ChromeDriver matching version 137.0.7151.69
+# # This URL is specifically for Chrome 137.0.7151.69 for Linux 64-bit from Chrome for Testing.
+# ENV CHROME_VERSION_FOR_TESTING 137.0.7151.69
+# ENV CHROMEDRIVER_ZIP_URL https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.69/linux64/chromedriver-linux64.zip
+
+# RUN wget -N ${CHROMEDRIVER_ZIP_URL} -P /tmp/ && \
+#     unzip /tmp/chromedriver-linux64.zip -d /usr/local/bin/ && \
+#     rm /tmp/chromedriver-linux64.zip && \
+#     chmod +x /usr/local/bin/chromedriver-linux64/chromedriver && \
+#     ln -s /usr/local/bin/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+
+# # 4. Install Python dependencies for your DAG
+# COPY requirements.txt /requirements.txt
+# RUN pip install --no-cache-dir -r /requirements.txt
+
+# # Switch back to Airflow user
+# USER airflow
+
+
+# ----------
+# Dockerfile_worker
+# Use your specified Airflow version as the base image
+FROM apache/airflow:2.10.5
+
+USER root
+
+# 1. Install system dependencies for Google Chrome AND unzip
+RUN apt-get update && \
+    apt-get install -yq --no-install-recommends \
+    curl \
+    gnupg \
+    unzip \
+    fonts-liberation \
+    libappindicator3-1 \
+    libasound2 \
+    libatk-bridge2.0-0 \
+    libatk1.0-0 \
+    libatspi2.0-0 \
+    libcairo2 \
+    libcups2 \
+    libdbus-1-3 \
+    libdrm-amdgpu1 \
+    libdrm-common \
+    libdrm-nouveau2 \
+    libdrm-radeon1 \
+    libdrm2 \
+    libgbm1 \
+    libgdk-pixbuf2.0-0 \
+    libgl1 \
+    libgtk-3-0 \
+    libjpeg-dev \
+    libnspr4 \
+    libnss3 \
+    libpango-1.0-0 \
+    libpangocairo-1.0-0 \
+    libstdc++6 \
+    libx11-6 \
+    libx11-xcb1 \
+    libxcb-dri3-0 \
+    libxcb-present0 \
+    libxcb-randr0 \
+    libxcb-shm0 \
+    libxcomposite1 \
+    libxcursor1 \
+    libxdamage1 \
+    libxext6 \
+    libxfixes3 \
+    libxi6 \
+    libxrandr2 \
+    libxrender1 \
+    libxss1 \
+    libxtst6 \
+    xdg-utils \
+    lsb-release && \
+    rm -rf /var/lib/apt/lists/*
+
+# 2. Install Google Chrome Stable
+RUN curl -fsSL https://dl.google.com/linux/linux_signing_key.pub | gpg --dearmor -o /usr/share/keyrings/google-chrome.gpg && \
+    echo "deb [arch=amd64 signed-by=/usr/share/keyrings/google-chrome.gpg] http://dl.google.com/linux/chrome/deb/ stable main" > /etc/apt/sources.list.d/google-chrome.list && \
+    apt-get update && \
+    apt-get install -y google-chrome-stable
+
+# 3. Install ChromeDriver matching Chrome version 137.0.7151.69
+ENV CHROME_VERSION_FOR_TESTING 137.0.7151.69
+ENV CHROMEDRIVER_ZIP_URL https://storage.googleapis.com/chrome-for-testing-public/${CHROME_VERSION_FOR_TESTING}/linux64/chromedriver-linux64.zip
+
+RUN wget -N ${CHROMEDRIVER_ZIP_URL} -P /tmp/ && \
+    unzip /tmp/chromedriver-linux64.zip -d /usr/local/bin/ && \
+    rm /tmp/chromedriver-linux64.zip && \
+    chmod +x /usr/local/bin/chromedriver-linux64/chromedriver && \
+    ln -s /usr/local/bin/chromedriver-linux64/chromedriver /usr/local/bin/chromedriver
+
+# # 4. Install Python dependencies for your DAG as root, overriding pip's warning.
+# COPY requirements.txt /requirements.txt
+# # Use --break-system-packages (for Python 3.10+) or --ignore-installed (older pip)
+# # This forces pip to install even when run as root outside a virtual environment.
+# RUN pip install --no-cache-dir --break-system-packages -r /requirements.txt
+
+# Switch back to Airflow user for running the actual Airflow services
+USER airflow
